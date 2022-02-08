@@ -19,7 +19,7 @@ int main() {
 		return 0;
 	//find out min possible max consecutive difference
 	int gap = (maxNo - minNo) / (n - 1);
-	if ((maxNo - minNo) % (n - 1) == 1) {
+	if ((maxNo - minNo) % (n - 1) != 0) {
 		gap++;
 	}
 
